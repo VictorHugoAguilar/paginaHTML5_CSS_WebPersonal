@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Geeks, Geekshubs Online">
+    <meta name="author" content="Geeks Victor Hugo">
+    <meta name="description" content="Geekshubs Online">
+    <base href="./" />
+    <!-- Styles CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <link type="text/css" href="css/fontawesome.css" rel="stylesheet">
+    <link type="text/css" href="css/brands.css" rel="stylesheet">
+    <link type="text/css" href="css/solid.css" rel="stylesheet">
+    <title>Página de inicio - WebPersonal</title>
+</head>
+
+<body data-spy="scroll" data-target="#menu-principal" data-offset="50">
+    <div class="cover__container">
+        <!-- Header -->
+        <header class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center " id="menu-principal">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <h3 class="masthead-brand fab">Isabella</h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="#mihistoria">Mi historia</a>
+                        <a class="nav-link" href="#trabajos">Trabajos</a>
+                        <a class="nav-link" href="#trabajos">Contácteme</a>
+                    </nav>
+                </div>
+            </header>
+
+            <main role="main" class="inner cover">
+                <h1 class="cover-heading">Isabella - Diseñadora gráfica</h1>
+                <p class="lead">Diseño es todo lo que hacemos, pero también lo que esta en medio de todo. Una mezcla de arte, ciencia, historia, propaganda y filosofía.</p>
+                <p class="lead">
+                    <a href="#" class="btn-lg btn-secondary">Conctácteme</a>
+                </p>
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <span class="scroll-btn">
+                        <a href="#">
+                            <span class="mouse">
+                                <span>
+                                </span>
+                    </span>
+                    </a>
+                    </span>
+                </div>
+            </footer>
+
+        </header>
+    </div>
+    <div class="container">
+
+        <section class="info" id="mihistoria">
+
+            <article class="info-foto">
+                <img alt="Isabella" src="./img/isabella.jpg" class="img-fluid" />
+            </article>
+
+            <article class="info-personal">
+                <h2 class="borde-abajo">
+                    Yo soy diseñadora gráfica
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis dignissimos iusto dolores, inventore repellendus veniam voluptates minima odit ex hic deserunt! Totam nulla eos architecto similique ratione quisquam? Vero, facilis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officia, aliquid esse velit repellendus commodi laudantium, nemo eaque quos a beatae totam sit expedita blanditiis inventore culpa dolore delectus maiores. Lorem ipsum dolor
+                    sit amet consectetur, adipisicing elit. Sint ex ipsam quasi neque consequuntur culpa ab enim. Sint blanditiis doloribus ipsam expedita sequi repudiandae quam placeat, adipisci tenetur odit vitae.</p>
+
+                <div class="redes-sociales">
+                    <ul class="redes-sociales-ul">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <section class="estadisticas">
+        <!-- Estadísticas -->
+        <article class="container">
+            <div class="estadisticas-row">
+                <div class="estadisticas-col">
+                    <i class="fas fa-comment-alt fa-3x"></i>
+                    <span class="estadisticas__numero">150</span>
+                    <h3>Project</h5>
+                </div>
+                <div class="estadisticas-col">
+                    <i class="fas fa-heart fa-3x"></i>
+                    <span class="estadisticas__numero">150</span>
+                    <h3>Project</h5>
+                </div>
+                <div class="estadisticas-col">
+                    <i class="fas fa-map fa-3x"></i>
+                    <span class="estadisticas__numero">150</span>
+                    <h3>Project</h5>
+                </div>
+                <div class="estadisticas-col">
+                    <i class="fas fa-space-shuttle fa-3x"></i>
+                    <span class="estadisticas__numero">150</span>
+                    <h3>Project</h5>
+                </div>
+            </div>
+        </article>
+
+    </section>
+    <section class="container" id="trabajos">
+        <!-- Trabajos recientes-->
+        <h2 class="text-center">Trabajos Recientes</h2>
+
+        <article class="trabajos-row">
+            <ul class="simplefilter">
+                <!-- para filtrar controles-->
+                <li data-filter="all">Todos</li>
+                <li data-filter="1">Categoria 1</li>
+                <li data-filter="2">Categoria 2</li>
+                <li data-filter="3">Categoria 3</li>
+                <li data-filter="4">Categoria 4</li>
+            </ul>
+        </article>
+
+        <div class="row">
+            <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-category
+						attribute, which starts from the value 1 and goes up from there -->
+            <div class="filtr-container">
+                <div class="trabajos-item filtr-item" data-category="1, 5" data-sort="Busy streets">
+                    <img class="img-fluid" src="img/imagen1.jpg" alt="sample image">
+                    <span class="item-desc">Busy Streets</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="2, 5" data-sort="Luminous night">
+                    <img class="img-fluid" src="img/imagen2.jpg" alt="sample image">
+                    <span class="item-desc">Luminous night</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="1, 4" data-sort="City wonders">
+                    <img class="img-fluid" src="img/imagen10.jpg" alt="sample image">
+                    <span class="item-desc">city wonders</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3" data-sort="In production">
+                    <img class="img-fluid" src="img/imagen11.jpg" alt="sample image">
+                    <span class="item-desc">in production</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3, 4" data-sort="Industrial site">
+                    <img class="img-fluid" src="img/imagen12.jpg" alt="sample image">
+                    <span class="item-desc">industrial site</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+                    <img class="img-fluid" src="img/imagen13.jpg" alt="sample image">
+                    <span class="item-desc">peaceful lake</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="1, 5" data-sort="City lights">
+                    <img class="img-fluid" src="img/imagen3.jpg" alt="sample image">
+                    <span class="item-desc">city lights</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+                    <img class="img-fluid" src="img/imagen4.jpg" alt="sample image">
+                    <span class="item-desc">dreamhouse</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3" data-sort="Restless machines">
+                    <img class="img-fluid" src="img/imagen5.jpg" alt="sample image">
+                    <span class="item-desc">restless machines</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3" data-sort="Restless machines">
+                    <img class="img-fluid" src="img/imagen8.jpg" alt="sample image">
+                    <span class="item-desc">webstorms</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3" data-sort="Restless machines">
+                    <img class="img-fluid" src="img/imagen6.jpg" alt="sample image">
+                    <span class="item-desc">Art pure</span>
+                </div>
+                <div class="trabajos-item filtr-item" data-category="3" data-sort="Restless machines">
+                    <img class="img-fluid" src="img/imagen7.jpg" alt="sample image">
+                    <span class="item-desc">heart blue</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="album py-3 bg-light">
+        <!-- Imagenes de proyectos-->
+
+        <div class="container">
+            <h3 class="text-center">Últimas entradas</h3>
+
+            <div class="album-row">
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen3.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen1.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen2.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen4.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen5.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen6.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen7.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen8.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen9.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen10.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen11.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="album-col">
+                    <div class="album">
+                        <img class="album-img-top" src="./img/imagen12.jpg" alt="" />
+                        <div class="album-body">
+                            <p class="album-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="album-footer">
+                                <div class="btn-group">
+                                    <button type="button" class="btn-album">View</button>
+                                    <button type="button" class="btn-album">Edit</button>
+                                </div>
+                                <small class="album-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer class="text-center">
+            <div class="inner">
+                <p>desarrollado, by <a href="https://github.com/VictorHugoAguilar?tab=repositories" target="_blank">#victorHugo</a>. <i class="fab fa-github-square"></i> </p>
+            </div>
+        </footer>
+
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery.filterizr.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+        $(function() {
+            var f = $('.filtr-container').filterizr();
+            window.filterizr = f;
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.nav-link').on('click', function(e) {
+                e.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function() {
+                    window.location.hash = hash
+                })
+            })
+        });
+    </script>
+</body>
+
+</html>
