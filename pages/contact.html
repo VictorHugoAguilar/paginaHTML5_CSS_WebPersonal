@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Geeks, Geekshubs Online">
+    <meta name="author" content="Geeks Victor Hugo">
+    <meta name="description" content="Geekshubs Online">
+    <base href="./" />
+    <!-- Styles CSS-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <link type="text/css" href="../css/fontawesome.css" rel="stylesheet">
+    <link type="text/css" href="../css/brands.css" rel="stylesheet">
+    <link type="text/css" href="../css/solid.css" rel="stylesheet">
+    <title>Página de inicio - WebPersonal</title>
+</head>
+
+<body>
+    <div class="cover__container link-back">
+        <header class="cover-container text-center " id="menu-principal">
+            <nav class="nav-masthead">
+                <a id="link_back" class="nav-link" href="#"> Contáctame </a>
+            </nav>
+        </header>
+
+        <div class="cover-container-form">
+            <!-- Form -->
+            <section class="formulario">
+                <form>
+
+                    <div class="form-item">
+                        <label for="nombre" class="label"> Nombre: </label>
+                        <input class="item-text" type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="apellido" class="label"> Apellido: </label>
+                        <input class="item-text" type="text" name="apellido" id="apellido" placeholder="Introduce tus apellidos">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="direccion" class="label"> Direccion: </label>
+                        <input class="item-text" type="text" name="direccion" id="direccion" placeholder="Introduce tu dirección">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="telefono" class="label"> Teléfono: </label>
+                        <input class="item-text" type="number" name="telefono" id="telefono" placeholder="Introduce tu teléfono">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email" class="label"> E-mail: </label>
+                        <input class="item-text" type="email" name="email" id="email" placeholder="Introduce tu email">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="tipo_cliente" class="label"> Tipo de cliente: </label>
+                        <input type="radio" class="form_radio" name="tipo_cliente_particula"><span class="texto-radio">Trabajo freelance para particular</span>
+                        <input type="radio" class="form_radio" name="tipo_cliente_particula"><span class="texto-radio">Trabajo freelance para empresa</span>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="explicacion" class="label"> Explica brevemente lo que buscas: </label>
+                        <textarea name="explicacion" id="explicacion" class="form-explicacion">
+                            Introduce una explicacion de lo que buscas...
+                        </textarea>
+                    </div>
+
+                    <div class="form-item">
+                        <input type="checkbox" class="form_condiciones" name="condiciones"><span class="texto-radio">Acepte las condiciones de privacidad antes de enviar el formulario</span>
+                        <button type="button" name="enviar" class="btn-envio">Enviar Formulario</button>
+                    </div>
+
+                    <div class="form-item">
+                        <a href="../index.html" class="btn-volver">Volver</a>
+                    </div>
+
+                </form>
+
+            </section>
+        </div>
+    </div>
+
+    <section class="footer">
+        <footer class="text-center">
+            <div class="inner">
+                <p>desing, by <a href="https://github.com/VictorHugoAguilar?tab=repositories" target="_blank">#victorHugo</a>. <i class="fab fa-github-square"></i> </p>
+            </div>
+        </footer>
+
+    </section>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
